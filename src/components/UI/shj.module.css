@@ -1,0 +1,90 @@
+.banner
+{
+    padding-top: 82px;
+    padding-bottom: 82px;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 210px;
+    background-color: #ffe6cc;
+    margin-bottom: 100px;
+    
+}
+.mds
+{
+    position: relative;
+    top:30px;
+  
+    /* z-index: 0;
+    margin-top: 40px;
+    border:1px solid red; */
+}
+.mds img{
+    width: 300px;
+    height: 200px;
+ 
+}
+#one
+{
+    position: absolute;
+    left: -29px;
+    top: -37px;
+
+    right: auto;
+    bottom: auto;
+    z-index: 2;
+    -webkit-transform: rotate(-30.6deg);
+    -ms-transform: rotate(-30.6deg);
+    transform: rotate(-30.6deg); 
+
+}
+
+#two
+{
+    position: absolute;
+    left: -17px;
+    top: -18px;
+    right: auto;
+    bottom: auto;
+    z-index: 1; 
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(-21.6deg);
+    transform: rotate(-25.6deg); 
+}
+
+#three
+{
+    /* position: absolute;
+    left: 28px;
+    top: 5px;*/
+    right: auto;
+    bottom: auto;
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-35deg); 
+    transform: rotate(-18.6deg);  
+}
+
+#ct
+{
+    font-size: 62px;
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#dt
+{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:800px) {
+    #one,#two,#three
+    {
+        display: none;
+    }
+
+}

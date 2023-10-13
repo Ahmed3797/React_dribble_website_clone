@@ -1,0 +1,46 @@
+.oo
+{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-color:#003d29;
+    color: #fff;
+    justify-content:space-around;
+    font-size: 14px;
+}
+
+.one
+{
+    display: flex;
+    align-items: center;
+}
+.one p{
+
+    margin-left: 5px;
+}
+.two
+{
+    cursor: pointer;
+}
+
+.three select{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 25px;
+}
+
+@media screen and (max-width:800px){
+    .oo{
+        display: block;
+        text-align: center;
+        align-items: center;
+        vertical-align: center;
+    }
+    
+    .one{
+        text-align: center;
+        display: inline;
+    }
+}

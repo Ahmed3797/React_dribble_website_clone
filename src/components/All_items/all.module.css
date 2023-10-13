@@ -1,0 +1,12 @@
+.bn
+{
+    display: flex ;
+    flex-wrap: wrap;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center;
+}

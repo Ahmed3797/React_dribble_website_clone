@@ -1,0 +1,97 @@
+.kjl
+{
+/* width: 400px; */
+height: 540px;
+padding: 10px;
+font-family: Inter, sans-serif;
+color: #333;
+position: relative;
+cursor: url("./hand.png"),auto;
+
+
+margin: 5px;
+}
+.up
+{
+    background-color:#f5f6f6;
+    text-align: center;
+    border-radius: 20px;
+}
+#bty
+{
+    background-color: white;
+    color: black;
+}
+#bty:hover{
+    background-color:#003d29;
+    color: white;
+
+}
+.kjl div image{
+    
+
+}
+.down img{
+    margin: 2px;
+}
+#title
+{
+    z-index: 1;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    font-family: Inter, sans-serif;
+    color: #231f1e;
+    font-size: 18px;
+    font-weight: 600;
+}
+#subtitle
+{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 16.5px;
+}
+.pl
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#amount
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#love
+{
+    width: 22px;
+    height: 22px;
+
+    
+}
+.love_box
+{
+    background-color: white;
+    border-radius: 50%;
+
+    position: absolute;
+    top:15px;
+    right: 15px;
+}
+.love_box:hover{
+    background-color: pink;
+}
+.up img 
+{
+    transition: 0.5s ease-in;
+}
+.up:hover img{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:800px) {
+    .kjl{
+        width: 300px;
+    }
+    
+}

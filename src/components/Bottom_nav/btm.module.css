@@ -1,0 +1,28 @@
+.oo
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.title
+{
+    display: flex;
+}
+.acc,.cart
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acc img ,.cart img{
+    object-fit: contain;
+   
+}
+
+@media screen and (max-width:800px){
+    .abc,.acc,.cart
+    {
+        display: none;
+    }
+    
+}

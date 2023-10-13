@@ -1,0 +1,15 @@
+.drp
+{
+    position: absolute;
+    width: 800px;
+    border-radius: 10px;
+    z-index: 5;
+    background-color: white;;
+
+}
+
+.its
+{
+    display: flex;
+    flex-wrap: wrap;
+}

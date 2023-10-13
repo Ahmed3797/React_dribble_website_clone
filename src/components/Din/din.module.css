@@ -1,0 +1,16 @@
+.dns
+{
+    display: flex;
+    margin-bottom: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+/* .dns::-webkit-scrollbar {
+    height: 14px;              
+    width: 14px;              
+    border: 1px solid #d5d5d5;
+    background-color: green;
+  } */

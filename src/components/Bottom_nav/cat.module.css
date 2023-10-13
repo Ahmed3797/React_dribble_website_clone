@@ -1,0 +1,28 @@
+.cts
+{
+    position: relative;
+}
+
+.cts select
+{
+    border: none;
+    font-size: 17px;
+    padding: 13px;
+}
+
+.cts select:hover{
+    border-bottom: 5px solid blue;
+    cursor: pointer;
+}
+
+.cts select:focus{
+    border: 0;
+    outline: 0;
+}
+
+@media screen and (max-width:800px) {
+    .cts{
+        display: none;
+    }
+    
+}

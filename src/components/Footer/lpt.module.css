@@ -1,0 +1,22 @@
+.us
+{
+    list-style-type: none;
+    padding: 0;
+}
+.mse
+{
+    text-align: left;
+    padding: 0;
+    padding:10px;
+    margin-left: 20px;
+}
+.ls
+{
+    transition: 0.3s linear;
+    padding: 3px;
+
+}
+.ls:hover{
+    transform: translateX(10px);
+    color: #FF6F61;
+}

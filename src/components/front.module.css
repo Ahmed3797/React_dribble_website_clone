@@ -1,0 +1,118 @@
+.fp
+{
+    background: url("https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e9b930e006824963189865_bg-stage.png") no-repeat;
+    background-position: right;
+    background-color: rgb(171, 223, 244);
+    height: 80vh;
+    position: relative;
+    overflow-y: hidden;
+}
+#p1,#p2,#p3,#p4
+{
+  position: absolute;
+  width:200px;
+  height: 200px; 
+}
+#p1
+{
+  top:80px;
+ left:880px;
+ height: 300px;
+
+}
+
+#p2
+{
+  top:50px;
+  right: 160px;
+  width: 230px;
+}
+
+#p3
+{
+top:260px;
+right: 240px;
+}
+#p4{
+  top:280px;
+  left:720px
+
+}
+
+.kjs
+{
+  position: absolute;
+  top:80px;
+  left: 100px;
+  width: 600px;
+}
+#hd
+{
+  font-size: 64px;
+  color: #003d29;
+  font-weight: bold;
+}
+#ld
+{
+  font-size: 20px;
+  color: #231f1e;
+}
+
+button
+{
+  color: White;
+  background-color:#003d29 ;
+  height: 50px;
+  width: 150px;
+  border-radius: 30px;
+  font-size: 17px;
+}
+
+button:hover{
+  background-color: black;
+  cursor: pointer;
+}
+@media screen and (max-width:800px) {
+  #p1,#p2,#p3,#p4
+  {
+    display: none;
+  }
+  #hd
+  {
+    font-size: 32px;
+  }
+  #ld
+  {
+
+  }
+
+  .kjs{
+    width: 300px;
+    left: 20px;
+  }
+  
+}
+
+@media screen and (max-width:1300px) {
+  #p1,#p2,#p3,#p4
+  {
+    display: none;
+  }
+  .fp{
+    background-image: none;
+  }
+  
+}
+
+@media screen and(max-width:500px)
+{
+
+.kjs
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid red;
+}
+
+}

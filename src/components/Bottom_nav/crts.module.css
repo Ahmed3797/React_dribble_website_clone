@@ -1,0 +1,23 @@
+.ds
+{
+    display: flex;
+    width: 330px;
+    background-color:rgb(241, 241, 241);
+    margin: 10px;
+    padding: 3px;
+    border-radius: 6px;
+    height: 80px;
+}
+
+img{
+    height: 80%;
+    margin: 10px;
+}
+.ss #ps
+{
+    font-weight: bold;
+}
+
+.ss #ps:hover{
+    color: blue;
+}

@@ -1,0 +1,13 @@
+.kj
+{
+    display: flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    width: 320px;
+}
+.lkm
+{
+    padding: 20px;
+    width: 500px;
+}
